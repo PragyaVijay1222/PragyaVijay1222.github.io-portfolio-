@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <h1 id="typing"></h1>
+    </header>
+    <div class="container">
+        <div class="left">
+            <img src="Resources\formal.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Pragya Vijay</h1>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHxwRcZNzGdFfQWVtcRRrlBxJnLHBwGtspWFhjlqGLVQspKngJCljHKLNTqXBVRVRccDXGh" target="_blank">
+                <button id="email-button" class="but">Email Me</button>
+            </a>
+            <div class="icons">
+                <i class="icon phone" title="9508604773" onclick="copyPhoneNumber()"></i>
+                <i class="icon linkedin" title="linkedin.com/in/pragyavijay/" id="linked"></i>
+                <i class="icon github" title="github.com/PragyaVijay1222" id="git"></i>
+            </div>
+        </div>
+        <div class="right">
+            <h2 class="abme">About Me</h2>
+            <p class="abmep">Hi, I’m Pragya Vijay, a data science and machine learning specialist with a deep passion for uncovering insights from complex data and building intelligent models. I thrive on analyzing vast datasets, identifying patterns, and developing innovative solutions that drive efficiency and informed decision-making. My expertise lies in harnessing cutting-edge algorithms to solve intricate problems, optimizing performance, and transforming raw data into meaningful outcomes. Whether it’s predictive modeling, statistical analysis, or AI-driven applications, I am always eager to push boundaries and refine my skills in emerging technologies. I am committed to continuous learning and growth in this ever-evolving field, striving to make an impact through intelligent automation and data-driven strategies.</p>
+            <a href="Resources/Specialized_CV.pdf" download="Specialized_CV.pdf">
+                <button id="resume-button" class="but">Download Resume</button>
+            </a>
+        </div>
+    </div>
+    <div class="skills">
+        <h2 class="topics">Skills and Technologies</h2>
+        <div class="category">
+            <h2 class="h2n">Programming Languages</h2>
+            <div class="ico">
+            <img src="logo\pythonlogo.png" alt="Python">
+            <img src="logo\javalogo.png" alt="Java">
+            <img src="logo\cpplogo.png" alt="C++">
+            <img src="logo\rlogo.png" alt="R">
+            <img src="logo\javascriptlogo.png" alt="JavaScript">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="h2n">Machine Learning</h2>
+            <div class="ico">
+            <img src="logo\keraslogo.png" alt="keras">
+            <img src="logo\nltklogo.png" alt="nltk">
+            <img src="logo\opencvlogo.png" alt="openCV">
+            <img src="logo\pillowlogo.png" alt="pillow">
+            <img src="logo\pytorchlogo.png" alt="pytorch">
+            <img src="logo\scikitlogo.png" alt="scikit">
+            <img src="logo\scipylogo.png" alt="scipy">
+            <img src="logo\spacylogo.png" alt="spacy">
+            <img src="logo\tensorflowlogo.png" alt="tensorflow">
+            <img src="logo\torchvisionlogo.png" alt="torchvision">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="h2n">Data Analysis Tools</h2>
+            <div class="ico">
+            <img src="logo\excellogo.png" alt="excel">
+            <img src="logo\pandas logo.png" alt="Pandas">
+            <img src="logo\numpylogo.png" alt="Numpy">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="h2n">Data Visualization</h2>
+            <div class="ico">
+            <img src="logo\tableaulogo.png" alt="tableau">
+            <img src="logo\powerbilogo.png" alt="powerbi">
+            <img src="logo\matplotliblogo.png" alt="matplotlib">
+            <img src="logo\seabornlogo.png" alt="seaborn">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="h2n">Data Base</h2>
+            <div class="ico">
+            <img src="logo\mysqllogo.png" alt="mysql">
+            <img src="logo\mongodblogo.png" alt="mongoDM">
+            <img src="logo\hadooplogo.png" alt="hadoop">
+            <img src="logo\hivelogo.png" alt="hive">
+            <img src="logo\hbaselogo.png" alt="hbase">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="h2n">Development</h2>
+            <div class="ico">
+            <img src="logo\flask.logo.png" alt="flask">
+            <img src="logo\djangologo.png" alt="django">
+            <img src="logo\comfyUIlogo.png" alt="comfyui">
+            </div>
+        </div>
+    </div>
+    <div class="projects">
+        <h2 class="topics">Projects</h2>
+        <div class="project">
+            <div class="pd">
+                <h2 class="h2n"><a href="https://github.com/PragyaVijay1222/Comicfy " target="_blank">Comify - AI-Generated Comic Panels</a></h2>
+                <ul class="unlist">
+                    <li>Developed an AI-powered system to create comic panels from user-provided storylines, leveraging Stable Diffusion and Natural Language Processing (NLP).</li>
+                    <li>Implemented NLP techniques to automatically parse scripts into individual scenes, optimizing text processing and image generation workflows.</li>
+                    <li>Designed a fully customizable pipeline for text-to-image generation, enabling dynamic and expressive visual storytelling.</li>
+                    <li>Tech: Python [Stable Diffusion, NLP, Transformers]</li>
+                </ul>
+            </div>
+            <img src="Resources\Comify.jpg" alt="Project Screenshot" class="projectImage magnifiable">
+        </div>
+        <div class="project">
+            <div class="pd">
+            <h2 class="h2n"><a href="https://github.com/PragyaVijay1222/WikiGo " target="_blank">WikiGo - Summary on Finger Tips</a></h2>
+            <ul class="unlist">
+                <li>Developed a web application to generate concise summaries from Wikipedia pages using Flask and the Hugging Face Transformers library. </li> 
+                <li>Implemented natural language processing pipelines for text extraction and summarization, optimizing user experience with efficient and accurate results.</li>  
+                <li>Achieved high performance in summarizing large volumes of text, ensuring clarity and relevance of generated outputs.  </li>
+                <li>Tech: Python [Flask, Transformers, Hugging Face Pipelines]</li>
+            </ul>
+            </div>
+            <img src="Resources\Wikigo.png" alt="Project Screenshot" class="projectImage magnifiable">
+        </div>
+        <div class="project">
+            <div class="pd">
+            <h2 class="h2n"><a href="https://github.com/PragyaVijay1222/Machine-Learning-Projects/tree/main/Pneumonia_classification " target="_blank">PneumoNet - X-rays to Result</a></h2>
+            <ul class="unlist"><li>Constructed and trained a convolutional neural network to detect pneumonia from X-ray images , achieving an accuracy of 98%.</li>
+                <li>Implemented data preprocessing, augmentation, and model optimization techniques using Pillow and scikit-learn.</li>
+                <li>Achieved high accuracy in classifying pneumonia vs. non-pneumonia cases.</li>
+                <li>Tech: Python [Pillow, scikit-learn, Torch, TorchVision]</li>
+                </ul>
+            </div>
+            <img src="Resources\pneumonia.jpeg" alt="Project Screenshot" class="projectImage magnifiable">
+        </div>
+    </div>
+    <div class="certificates">
+        <h2 class="topics">Certifications and Courses</h2>
+        <div id="certi">
+        <div class="certification">
+            <h3 class="h2n">Data Visualisation: Empowering Business with Effective Insights</h3>
+            <img src="Resources\TATA.png" alt="Certificate Screenshot" class="certify magnifiable">
+        </div>
+        <div class="certification">
+            <h3 class="h2n">Data Science Using Python</h3>
+            <img src="Resources\Nptel.png" alt="Certificate Screenshot" class="certify magnifiable">
+        </div>
+        <div class="certification">
+            <h3 class="h2n">Supervised Machine Learning: Regression and Classification</h3>
+            <img src="Resources\coursera.png" alt="Certificate Screenshot" class="certify magnifiable">
+        </div>
+    </div>
+    </div>
+    <div class="internship">
+        <div class="int">
+        <h2 class="topics">Internships</h2>
+        <h2 class="h2n">Data Science Intern At Code Alpha</h2>
+        <p class="abmep">During my internship at Code Alpha, I worked on five data-driven projects, applying key concepts in supervised and unsupervised learning, as well as data analysis using Python. My work involved processing and analyzing datasets, building predictive models, and extracting valuable insights to solve real-world problems.</p>
+        <p class="abmep">I developed three personal projects where I independently explored various machine learning techniques, strengthening my ability to structure data pipelines and implement algorithms. Additionally, I collaborated on two group projects, where teamwork and communication were essential in designing efficient solutions and interpreting results earning myself a LOR.</p>
+        <p class="abmep">This experience has enhanced my technical proficiency in Python, machine learning, and analytical reasoning, while also improving my ability to approach challenges with a problem-solving mindset. I am eager to continue applying these skills and expanding my knowledge in the field of data science.</p>
+        </div>
+        <div class="incerti">
+        <img src="Resources\incerti.jpeg" alt="Certificate Screenshot" class="intern magnifiable">
+        </div>
+    </div>
+    <div class="achievements">
+        <h2 class="topics">Achievements</h2>
+        <div class="achievement">
+            <div class="aname">
+            <h2 class="h2n">Coding Proficiency and Recognition</h2>
+            <p class="abmep">Earned multiple badges in LeetCode, demonstrating deep understanding and practical application of Python libraries for efficient coding and problem-solving.</p>
+        </div>
+        <div class="leet">
+            <img src="Resources\l1.png" alt="Achievement Screenshot">
+            <img src="Resources\l2.png" alt="Achievement Screenshot">
+            <img src="Resources\l3.png" alt="Achievement Screenshot">
+            <img src="Resources\l4.png" alt="Achievement Screenshot">
+        </div>    
+        </div>
+        <div class="achievement">
+            <div class="aname">
+            <h2 class="h2n">Python Coding Expertise</h2>
+            <p class="abmep" style="max-width:60%;">Achieved a prestigious Gold Badge in Python on HackerRank, demonstrating advanced proficiency in Python programming, problem-solving, and efficient coding techniques.</p>
+        </div>
+            <img src="Resources\HackerR.png" alt="Achievement Screenshot">
+           
+        </div>
+        <div class="achievement">
+            <div class="aname">
+            <h2 class="h2n">Proven Problem-Solving Prowess</h2>
+            <p class="abmep" style="max-width:60%;">Successfully solved 300+ problems on LeetCode, ranking top 3%, showcasing consistancy, perseverance, and advanced problem-solving abilities in diverse coding scenarios.</p>
+        </div>
+            <img src="Resources\LeetCode.jpg" alt="Achievement Screenshot">
+        </div>
+    </div>
+    <footer>
+        <h2>Contact Information:</h2>
+        <ul class="lrf">
+            <li>Location: Phagwara, Punjab 144411</li>
+            <li>Email: pragyavijay20318@gmail.com</li>
+            <li>Phone: 9508604773</li>
+            <li>LinkedIn: linkedin.com/in/pragyavijay/</li>
+            <li>GitHub: github.com/PragyaVijay1222</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
