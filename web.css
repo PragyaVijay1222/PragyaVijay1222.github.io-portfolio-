@@ -112,6 +112,11 @@ footer ul{
     padding-bottom: 3%;
 }
 
+.certification a{
+    text-decoration: none;
+    color:#112853;
+}
+
 .internship{
     margin-top: 5%;
     padding-top: 2%;
