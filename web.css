@@ -31,6 +31,11 @@ footer ul{
     gap: 3%;
 }
 
+.LORspan{
+    text-decoration: none;
+    color:#395b88;
+}
+
 .lrf{
     display: flex;
     flex-direction:row;
