@@ -91,6 +91,11 @@ footer ul{
     color:#112853;
 }
 
+.achievement a{
+    text-decoration: none;
+    color:#112853;
+}
+
 .projects{
     margin-top: 5%;
     padding-top: 2%;
